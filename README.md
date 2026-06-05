@@ -2,7 +2,7 @@
 
 ---
 
-![Travel Blog](img/postfrom.png.jpg)
+![postfrom](img/postfrom.png)
 
 ---
 
