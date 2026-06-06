@@ -1,30 +1,112 @@
 .hero {
     text-align: center;
     padding: 80px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.hero h1 {
+.badge {
+    background-color: #f3f4f6;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.badge a {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.ttl {
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 1.1;
 }
 
-.hero p {
+.sub {
     font-size: 18px;
     color: #4b5563;
     max-width: 600px;
-    margin: 0 auto 32px auto;
+    margin-bottom: 32px;
 }
 
-.hero-btns {
+.h-btns {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
 }
 
 .hero-img {
-    max-width: 100%;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.hero-img img {
+    width: 100%;
     border-radius: 12px;
+    border: 1px solid #eaeaea;
+}
+
+.stack p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 12px;
+}
+
+.stack .items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #4b5563;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.feats {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.f-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.f-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: left;
+}
+
+.card {
+    padding: 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    background-color: #fafafa;
+}
+
+.c-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.c-txt {
+    font-size: 15px;
+    color: #4b5563;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
 }
