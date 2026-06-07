@@ -224,3 +224,59 @@ a {
     display: block;
     margin-top: auto;
 }
+
+.info-grid {
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.i-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+.i-sub {
+    font-size: 18px;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto 64px auto;
+}
+
+.i-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px 32px;
+    text-align: left;
+}
+
+.i-card {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.i-card img, .i-card svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.i-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.i-card p {
+    grid-column: 1 / -1;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.5;
+    margin-top: 12px;
+}
