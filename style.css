@@ -168,3 +168,36 @@
     font-weight: 400;
     color: #6b7280;
 }
+.info-grid {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.i-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.i-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: left;
+}
+
+.i-card img {
+    width: 24px;
+    margin-bottom: 16px;
+}
+
+.i-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.i-card p {
+    font-size: 14px;
+    color: #4b5563;
+}
