@@ -427,3 +427,220 @@ a {
 .p-row img:hover {
     transform: translateY(-5px);
 }
+.faq {
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.q-ttl {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.q-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.q-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.q-item:hover {
+    border-color: #cbd5e1;
+}
+
+.q-txt {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.q-icon {
+    font-size: 20px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.cta {
+    padding: 120px 20px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.c-ttl {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+}
+
+.c-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.ftr {
+    padding: 80px 5% 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-top: 1px solid #e2e8f0;
+}
+
+.f-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.f-logo {
+    font-size: 18px;
+    color: #0f172a;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.f-col strong {
+    font-size: 14px;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.f-col a {
+    font-size: 14px;
+    color: #64748b;
+    transition: color 0.2s;
+}
+
+.f-col a:hover {
+    color: #0f172a;
+}
+
+.f-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.f-links {
+    display: flex;
+    gap: 24px;
+}
+
+.f-links a {
+    transition: color 0.2s;
+}
+
+.f-links a:hover {
+    color: #0f172a;
+}
+.cta {
+    padding: 160px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.c-ttl {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+}
+
+.c-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.ftr {
+    padding: 0 5% 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-top: none;
+}
+
+.f-top {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.f-logo {
+    font-size: 20px;
+    color: #0f172a;
+    display: flex;
+    align-items: flex-start;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.f-col strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.f-col a {
+    font-size: 14px;
+    color: #64748b;
+    transition: color 0.2s;
+}
+
+.f-col a:hover {
+    color: #0f172a;
+}
+
+.f-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.f-links {
+    display: flex;
+    gap: 24px;
+}
+
+.f-links a {
+    transition: color 0.2s;
+}
+
+.f-links a:hover {
+    color: #0f172a;
+}
