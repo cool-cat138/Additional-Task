@@ -16,6 +16,7 @@ a {
     color: inherit;
 }
 
+/* Header */
 .hdr {
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,7 @@ a {
     font-weight: 500;
 }
 
+/* Hero */
 .hero {
     text-align: center;
     padding: 80px 20px 40px;
@@ -145,6 +147,7 @@ a {
     border: none;
     box-shadow: none;
     outline: none;
+    display: block;
 }
 
 .stack {
@@ -167,6 +170,7 @@ a {
     font-weight: 500;
 }
 
+/* Section 2: Features Grid */
 .feats {
     padding: 80px 20px;
     max-width: 1200px;
@@ -225,6 +229,7 @@ a {
     margin-top: auto;
 }
 
+/* Section 3: Info Grid (Everything you need) */
 .info-grid {
     padding: 100px 20px;
     max-width: 1200px;
@@ -236,15 +241,8 @@ a {
     font-size: 42px;
     font-weight: 700;
     color: #0f172a;
-    margin-bottom: 16px;
+    margin-bottom: 64px;
     letter-spacing: -0.01em;
-}
-
-.i-sub {
-    font-size: 18px;
-    color: #64748b;
-    max-width: 600px;
-    margin: 0 auto 64px auto;
 }
 
 .i-wrap {
@@ -279,4 +277,43 @@ a {
     color: #64748b;
     line-height: 1.5;
     margin-top: 12px;
+}
+
+/* Section 4: Trust (Quality you can trust) */
+.trust {
+    padding: 100px 20px 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.t-title {
+    font-size: 56px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.t-txt {
+    font-size: 16px;
+    color: #64748b;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.t-img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.t-img img {
+    width: 100%;
+    display: block;
+    filter: drop-shadow(0 -25px 80px rgba(249, 115, 22, 0.35)) drop-shadow(0 -10px 30px rgba(249, 115, 22, 0.15));
 }
