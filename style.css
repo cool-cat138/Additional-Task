@@ -201,3 +201,60 @@
     font-size: 14px;
     color: #4b5563;
 }
+.trust {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.t-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.t-txt {
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 40px;
+}
+
+.t-img {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.t-img img {
+    width: 100%;
+}
+
+.impress {
+    padding: 80px 5%;
+}
+
+.i-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.i-sub {
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.i-row {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.i-left, .i-right {
+    flex: 1;
+}
+
+.i-left img, .i-right img {
+    width: 100%;
+}
